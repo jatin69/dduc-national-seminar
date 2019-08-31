@@ -1,0 +1,1137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>National Seminar | DDUC</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Animation CSS -->
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <style>
+        textarea {
+            resize: none;
+        }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body id="page-top" class="landing-page">
+    <div class="navbar-wrapper">
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                        aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="dduseminardocs/brochure_national_seminar_SC.pdf" download>DOWNLOAD
+                        BROCHURE</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a class="page-scroll" href="#page-top">Home</a></li>
+                        <li><a class="page-scroll" href="#register">REGISTER</a></li>
+                        <li><a class="page-scroll" href="#schedule">Schedule</a></li>
+                        <li><a class="page-scroll" href="#speakers">Our Speakers</a></li>
+                        <li><a class="page-scroll" href="#oc">Organizing Committee</a></li>
+                        <li><a class="page-scroll" href="#aboutus">About Us</a></li>
+                        <li><a class="page-scroll" href="#contactus">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <div class="container">
+                    <div class="carousel-caption">
+
+                        <h1>DDUC presents<br />
+                            NATIONAL SEMINAR ON<br />
+                            “A STEP TOWARDS SOFT COMPUTING:<br />
+                            TECHNIQUES AND APPLICATIONS”</h1>
+                        <p>
+                            <a class="btn btn-lg btn-primary page-scroll " id="registerbutton" href="#register"
+                                role="button">Register</a>
+                        </p>
+                    </div>
+                    <div class="carousel-image wow zoomIn">
+                        <!--      <img src="img/sfdd" alt="laptop"/> -->
+
+                    </div>
+                </div>
+                <!-- Set background for slide in css -->
+                <div class="header-back one"></div>
+                <!-- <img src="img_old/landing/header_one.jpg" alt="laptop"> -->
+            </div>
+        </div>
+
+
+    </div>
+
+    <script>
+        function showhideoffline() {
+            document.getElementById("offlinebutton").className = "btn btn-primary";
+            document.getElementById("onlinebutton").className = "btn btn-white";
+            var div = document.getElementById("offline");
+            var div2 = document.getElementById("online");
+            div2.style.display = "none";
+            div.style.display = "block";
+        }
+
+        function showhideonline() {
+            document.getElementById("onlinebutton").className = "btn btn-primary";
+            document.getElementById("offlinebutton").className = "btn btn-white";
+            var div2 = document.getElementById("offline");
+            var div = document.getElementById("online");
+            div2.style.display = "none";
+            div.style.display = "block";
+        }
+
+        function ShowHideDivoffline(mycheckbox) {
+            var div = document.getElementById("offlineformdownload");
+            div.style.display = mycheckbox.checked ? "block" : "none";
+        }
+
+        function ShowHideDivonline(mycheckbox) {
+            var div = document.getElementById("onlinedatafill");
+            div.style.display = mycheckbox.checked ? "block" : "none";
+        }
+    </script>
+
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <div class="alert alert-info" role="alert">
+                <span aria-hidden="true"></span> <strong>The last date of Registration has been extended upto
+                    7th March, 2016 . Limited seats available. Register Now !!</strong>
+            </div>
+        </div>
+    </div>
+
+    <section id="register" class=" timeline gray-section">
+        <div class="container">
+            <div class="row m-b-lg">
+                <div class="col-lg-12 text-center">
+                    <div class="navy-line"></div>
+                    <h1>REGISTER</h1>
+                </div>
+            </div>
+            <div class="col-lg-12 text-center">
+                <h3>
+                    <strong> Registration Fee:</strong> &nbsp;&nbsp;&nbsp; Academicians/ Teachers/ Research Scholars:
+                    &nbsp;INR 500/- &nbsp;&nbsp; & &nbsp;&nbsp; Students: &nbsp;INR 200/- <br /><br />
+                </h3>
+            </div>
+
+            <div class="form-group" style="text-align:center">
+                <button id="offlinebutton" onclick="showhideoffline()" class="btn btn-white"
+                    type="button">OFFLINE</button>
+                <button id="onlinebutton" onclick="showhideonline()" class="btn btn-white" type="button">ONLINE</button>
+            </div>
+            <div id="offline" style="display:none">
+                <br />
+                <h2>
+                    <strong> Details for Offline Registration : <br /> </strong><br />
+                </h2>
+
+                <div class="row">
+                    <ul>
+                        <li> Step 1 : <br /><label> Download the offline registration form given below. Note that:
+                                Registration Fees has to be paid by demand draft only. </label> </li>
+                        <li> Step 2 : <label> Fill in the registration form along with demand draft in favour of
+                                "National Seminar-SC" payable at Delhi and send to Dr. Arpita Sharma,
+                                Seminar Organizing Secretary at the college address latest by March 3, 2016. </label>
+                        </li>
+                        <li> Step 3 : <br /><label> Confirmation of the registration is subjected to the verification of
+                                your Demand Draft. You will receive the confirmation mail shortly. </label> </li>
+
+                        <li> Step 4 : <br /> <label>Registrations will be done on First Come First Serve basis subject
+                                to availability of Seats. </label> </li>
+                    </ul>
+                </div>
+                <br />
+                <div>
+                    <label> <input id="termsandconditions" type="checkbox" onclick="ShowHideDivoffline(this)"
+                            class="i-checks"> I accept all the above mentioned conditions. </label>
+                </div>
+                <div id="offlineformdownload" style="display:none">
+                    <br />
+                    <div class="row">
+                        <div class="col-lg-12 text-center">
+                            <h3>
+                                Download the OFFLINE REGISTRATION FROM below <br /><br />
+                            </h3>
+                            <a href="dduseminardocs/offlineform.pdf" class="btn btn-primary" download><i
+                                    class="glyphicon glyphicon-download-alt"> </i> &nbsp;&nbsp; Download OFFLINE
+                                REGISTRATION FORM</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="online" style="display:none">
+                <br />
+                <h2>
+                    <strong> Payment details for Online Registration : <br /> </strong><br />
+                </h2>
+
+                <div class="row">
+                    <ul>
+                        <li> Step 1 : <br /><label> After accepting the below terms, you will be redirected to the main
+                                registration page. <br>Note that : Registration Fees has to be paid by Net Banking
+                                online transaction through NEFT/ RTGS/ IMPS . </label> </li>
+                        <li> Step 2 : <label> Required Fee should be paid to: &nbsp;&nbsp; A/C- "NationalSeminarSC" ,
+                                A/C No- "52012191028100" , IFSC Code- "ORBC0105201" , MICR Code- "110022167" , Name of
+                                Bank- "Oriental Bank Of Commerce" , Branch- "Karampura" , New Delhi-110015 .
+                                <!-- <br> * Please Note that the A/C Name is without Spaces - "NationalSeminarSC" -->
+                            </label> </li>
+                        <li> Step 3 : <br /><label> Fill up the Transaction ID and amount in the main form. </label>
+                        </li>
+                        <li> Step 4 : <br /><label> Confirmation of the registration is subjected to the verification of
+                                your Transaction Id. You will receive the confirmation mail shortly. </label> </li>
+
+                        <li> Step 5 : <br /> <label>Registrations will be done on First Come First Serve basis subject
+                                to availability of Seats. </label> </li>
+                    </ul>
+                </div>
+                <br />
+                <div>
+                    <label> <input id="onlinedetails" type="checkbox" onclick="ShowHideDivonline(this)"
+                            class="i-checks"> I accept all the above mentioned conditions. </label>
+                </div>
+
+                <div id="onlinedatafill" style="display:none">
+                    <br><br>
+
+                    <div class="form-group">
+                        <div class="col-lg-12 text-center">
+                            <br>
+                            <button id="agreeandcontinue" class="btn btn-primary" type="submit"
+                                onclick="location.href = 'register.html';" value="agreeandcontinue">Agree and
+                                Continue</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <section id="schedule" class="timeline gray-section">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="navy-line"></div>
+                    <h1>Schedule</h1>
+                </div>
+            </div>
+            <div>
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <br /><br />
+                        <h2> <strong>DAY 1 </strong></h2>
+                        <label>
+                            18th March, 2016 - FRIDAY
+                        </label>
+
+                    </div>
+                </div>
+                <div class="row features-block">
+                    <div class="col-lg-12">
+                        <div id="vertical-timeline" class="vertical-container light-timeline center-orientation">
+
+                            <div class="vertical-timeline-block">
+                                <div class="vertical-timeline-icon navy-bg">
+                                    <i class="fa fa-cogs"></i>
+                                </div>
+
+                                <div class="vertical-timeline-content">
+                                    <h2>Inauguration</h2>
+                                    <p>
+                                    </p>
+                                    <span class="vertical-date"> <strong> 9:30 am - 10:00 am </strong> <br /> </span>
+                                </div>
+                            </div>
+
+                            <div class="vertical-timeline-block">
+                                <div class="vertical-timeline-icon navy-bg">
+                                    <i class="fa fa-file-text"></i>
+                                </div>
+
+                                <div class="vertical-timeline-content">
+                                    <h2>Key address Note: “Genetic Algorithms” </h2>
+                                    <p>Prof. (Dr.) Deo Prakash Vidyarthi
+                                        Professor, School of Computer and System Sciences, Jawaharlal Nehru University,
+                                        New Delhi, India
+                                    </p>
+                                    <span class="vertical-date"> <strong> 10:00 am - 11:00 am </strong><br />
+                                        <small></small> </span>
+                                </div>
+                            </div>
+
+                            <div class="vertical-timeline-block">
+                                <div class="vertical-timeline-icon navy-bg">
+                                    <i class="fa fa-cogs"></i>
+                                </div>
+
+                                <div class="vertical-timeline-content">
+                                    <h2>BREAK</h2>
+                                    <p>
+                                    </p>
+                                    <span class="vertical-date"> <strong> 11:00 am - 11:30 am </strong> <br /> </span>
+                                </div>
+                            </div>
+
+
+                            <div class="vertical-timeline-block">
+                                <div class="vertical-timeline-icon navy-bg">
+                                    <i class="fa fa-file-text"></i>
+                                </div>
+
+                                <div class="vertical-timeline-content">
+                                    <h2>“Practical demonstration of Soft Computing Techniques using MATLAB” </h2>
+                                    <p>Dr. Shikha Mehta
+                                        Department of Information Technology Jaypee Institute of Technology, Noida
+                                    </p>
+                                    <span class="vertical-date"> <strong> 11:30 am - 12:30 pm </strong><br />
+                                        <small></small> </span>
+                                </div>
+                            </div>
+                            <div class="vertical-timeline-block">
+                                <div class="vertical-timeline-icon navy-bg">
+                                    <i class="fa fa-file-text"></i>
+                                </div>
+
+                                <div class="vertical-timeline-content">
+                                    <h2>“Mining Software Engineering Repositories: issues and challenges” </h2>
+                                    <p> Dr. Krishan Kumar Chaturvedi
+                                        Scientist, IASRI, Pusa, New Delhi
+                                    </p>
+                                    <span class="vertical-date"> <strong> 12:30 pm - 1:30 pm </strong><br />
+                                        <small></small> </span>
+                                </div>
+                            </div>
+
+                            <div class="vertical-timeline-block">
+                                <div class="vertical-timeline-icon navy-bg">
+                                    <i class="fa fa-cogs"></i>
+                                </div>
+
+                                <div class="vertical-timeline-content">
+                                    <h2>LUNCH</h2>
+                                    <p>
+                                    </p>
+                                    <span class="vertical-date"> <strong> 1:30 am - 2:30 pm </strong> <br /> </span>
+                                </div>
+                            </div>
+
+                            <div class="vertical-timeline-block">
+                                <div class="vertical-timeline-icon navy-bg">
+                                    <i class="fa fa-file-text"></i>
+                                </div>
+                                <div class="vertical-timeline-content">
+                                    <h2>“Use of Bio-Inspired Techniques in Software Engineering”</h2>
+                                    <p> Prof. Hardeep Singh
+                                        Professor, Department of Computer Engineering, Guru Nanak Dev University,
+                                        Amritsar, Punjab
+
+                                    </p>
+                                    <span class="vertical-date"> <strong> 2:30 pm - 3:30 pm </strong><br />
+                                        <small></small> </span>
+                                </div>
+                            </div>
+
+                            <div class="vertical-timeline-block">
+                                <div class="vertical-timeline-icon navy-bg">
+                                    <i class="fa fa-cogs"></i>
+                                </div>
+                                <div class="vertical-timeline-content">
+                                    <h2>BREAK</h2>
+                                    <p>
+                                    </p>
+                                    <span class="vertical-date"> <strong> 3:30 pm - 4:00 pm </strong> <br /> </span>
+                                </div>
+                            </div>
+
+                            <div class="vertical-timeline-content">
+                                <h2>“Fuzzy Reasoning based Optimization Problems”</h2>
+                                <p> Dr. Aparna Mehta
+                                    Associate Professor, IIT, Delhi, India
+                                </p>
+                                <span class="vertical-date"> <strong> 4:00 pm - 5:30 pm </strong><br /> <small></small>
+                                </span>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <br /><br />
+                        <h2> <strong>DAY 2 </strong></h2>
+                        <label>
+                            19th March, 2016 - SATURDAY
+                        </label>
+                    </div>
+                </div>
+                <div class="row features-block">
+                    <div class="col-lg-12">
+                        <div id="vertical-timeline" class="vertical-container light-timeline center-orientation">
+
+                            <div class="vertical-timeline-block">
+                                <div class="vertical-timeline-icon navy-bg">
+                                    <i class="fa fa-file-text"></i>
+                                </div>
+
+                                <div class="vertical-timeline-content">
+                                    <h2>“Web-intelligence” </h2>
+                                    <p>Dr. Deepak Garg
+                                        Associate Professor, Head of Department of Computer Science and Engineering,
+                                        Thapar University, Patiala
+                                    </p>
+                                    <span class="vertical-date"> <strong> 9:30 am - 11:00 am </strong><br />
+                                        <small></small> </span>
+                                </div>
+                            </div>
+
+                            <div class="vertical-timeline-block">
+                                <div class="vertical-timeline-icon navy-bg">
+                                    <i class="fa fa-cogs"></i>
+                                </div>
+
+                                <div class="vertical-timeline-content">
+                                    <h2>BREAK</h2>
+                                    <p>
+                                    </p>
+                                    <span class="vertical-date"> <strong> 11:00 am - 11:30 am </strong> <br /> </span>
+                                </div>
+                            </div>
+
+                            <div class="vertical-timeline-block">
+                                <div class="vertical-timeline-icon navy-bg">
+                                    <i class="fa fa-file-text"></i>
+                                </div>
+
+                                <div class="vertical-timeline-content">
+                                    <h2>“Computational Intelligence” </h2>
+                                    <p>Dr. Jagdish Chand Bansal
+                                        Assistant Professor, South Asian University, New Delhi
+                                        Earlier Assistant Professor, Indian Institute of Information Technology and
+                                        Management Gwalior and BITS Pilani
+                                    </p>
+                                    <span class="vertical-date"> <strong> 11:30 am - 1:00 pm </strong><br />
+                                        <small></small> </span>
+                                </div>
+                            </div>
+
+                            <div class="vertical-timeline-block">
+                                <div class="vertical-timeline-icon navy-bg">
+                                    <i class="fa fa-cogs"></i>
+                                </div>
+
+                                <div class="vertical-timeline-content">
+                                    <h2>LUNCH</h2>
+                                    <p>
+                                    </p>
+                                    <span class="vertical-date"> <strong> 1:00 am - 2:00 pm </strong> <br /> </span>
+                                </div>
+                            </div>
+
+
+
+                            <div class="vertical-timeline-block">
+                                <div class="vertical-timeline-icon navy-bg">
+                                    <i class="fa fa-file-text"></i>
+                                </div>
+
+                                <div class="vertical-timeline-content">
+                                    <h2>““Artificial Neural Networks: New Models of Computation” </h2>
+                                    <p> Prof. Anupam Agrawal
+                                        Professor of Computer Science, IIIT Allahabad, India
+                                        Computer Vision, Graphics, Image Processing, HCI, Soft Computing
+
+                                    </p>
+                                    <span class="vertical-date"> <strong> 2:00 pm - 3:30 pm </strong><br />
+                                        <small></small> </span>
+                                </div>
+                            </div>
+
+
+                            <div class="vertical-timeline-block">
+                                <div class="vertical-timeline-icon navy-bg">
+                                    <i class="fa fa-cogs"></i>
+                                </div>
+                                <div class="vertical-timeline-content">
+                                    <h2>BREAK</h2>
+                                    <p>
+                                    </p>
+                                    <span class="vertical-date"> <strong> 3:30 pm - 4:00 pm </strong> <br /> </span>
+                                </div>
+                            </div>
+
+                            <div class="vertical-timeline-content">
+                                <h2>"Support Vector Machine: Fundamentals and Practical Aspects"</h2>
+                                <p> Tejas Indulal Dhamecha
+                                    Image Analysis and Biometrics Lab, IIIT, Delhi
+
+                                </p>
+                                <span class="vertical-date"> <strong> 4:00 pm - 5:30 pm </strong><br /> <small></small>
+                                </span>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section id="speakers" class="gray-section team">
+        <div class="container">
+            <div class="row m-b-lg">
+                <div class="col-lg-12 text-center">
+                    <div class="navy-line"></div>
+                    <h1>Our Speakers</h1>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-sm-4 wow fadeInLeft">
+                    <div class="team-member">
+                        <img src="img/s1.jpg" class="img-responsive img-circle img-small" alt="">
+                        <h4><span class="navy">Dr. </span> Deepak Garg</h4>
+                        <p>Associate Professor, Head of Department of Computer Science and Engineering, Thapar
+                            University, Patiala. </p>
+                        <br />
+                    </div>
+                </div>
+                <div class="col-sm-4 wow fadeInLeft">
+                    <div class="team-member  wow">
+                        <img src="img/s2.jpg" class="img-responsive img-circle img-small" alt="">
+                        <h4><span class="navy">Prof.</span> Anupam Agrawal</h4>
+                        <p><span class="navy">Specialize in </span>Professor of Computer Science, IIIT Allahabad, India
+                            Computer Vision, Graphics, Image Processing, HCI, Soft Computing.
+                        </p>
+                        <br />
+                        <!-- social links for speakers
+                            <ul class="list-inline social-icon">
+                                <li><a href="#"><i class="fa fa-twitter"></i></a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-facebook"></i></a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                                </li>
+                            </ul>
+                            -->
+                    </div>
+                </div>
+
+                <div class="col-sm-4 wow fadeInRight">
+                    <div class="team-member  wow">
+                        <img src="img/s3.jpg" class="img-responsive img-circle img-small" alt="">
+                        <h4><span class="navy">Prof. </span> Hardeep Singh</h4>
+                        <p>Professor, Department of Computer Engineering, Guru Nanak Dev University, Amritsar, Punjab.
+                        </p>
+                        <br />
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-sm-4 wow fadeInLeft">
+                    <div class="team-member">
+                        <img src="img/s4.jpg" class="img-responsive img-circle img-small" alt="">
+                        <h4><span class="navy">Prof. </span> Deo Prakash Vidyarthi</h4>
+                        <p>Professor, School of Computer and System Sciences, Jawaharlal Nehru University, New Delhi,
+                            India. </p>
+                        <br />
+                    </div>
+                </div>
+                <div class="col-sm-4 wow fadeInLeft">
+                    <div class="team-member">
+                        <img src="img/s5.jpg" class="img-responsive img-circle img-small" alt="">
+                        <h4><span class="navy">Dr.</span> Jagdish Chand Bansal</h4>
+                        <p>Assistant Professor, South Asian University, New Delhi
+                            Earlier Assistant Professor, Indian Institute of Information Technology and Management
+                            Gwalior and BITS Pilani. </p>
+                        <br />
+                    </div>
+                </div>
+
+                <div class="col-sm-4 wow fadeInRight">
+                    <div class="team-member">
+                        <img src="img/s6.jpg" class="img-responsive img-circle img-small" alt="">
+                        <h4><span class="navy">Dr. </span> Aparna Mehra</h4>
+                        <p>Associate Professor, IIT, Delhi, India.</p>
+                        <br />
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 wow fadeInLeft">
+                    <div class="team-member">
+                        <img src="img/s7.jpg" class="img-responsive img-circle img-small" alt="">
+                        <h4><span class="navy">Dr.</span> Krishna Kumar Chaturvedi</h4>
+                        <p>Scientist, ICAR-IASRI, New Delhi, INDIA. </p>
+                        <br />
+                    </div>
+                </div>
+                <div class="col-sm-4 wow fadeInLeft">
+                    <div class="team-member">
+                        <img src="img/s8.jpg" class="img-responsive img-circle img-small" alt="">
+                        <h4><span class="navy">Dr. </span> Shikha Mehta</h4>
+                        <p>Assistant Professor, Department of Information Technology Jaypee Institute of Technology,
+                            Noida. </p>
+                        <br />
+                    </div>
+                </div>
+
+                <div class="col-sm-4 wow fadeInRight">
+                    <div class="team-member">
+                        <img src="img/s9.JPG" class="img-responsive img-circle img-small" alt="">
+                        <h4><span class="navy">Ph.D. Scholar </span> Tejas Indulal Dhamecha</h4>
+                        <p>Image Analysis and Biometrics Lab, IIIT, Delhi.</p>
+                        <br />
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
+                    <!--  <p>At last, blah blah blah.</p> -->
+                    <br /></div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="oc" class="gray-section team">
+        <div class="container">
+            <div class="row m-b-lg">
+                <div class="col-lg-12 text-center">
+                    <div class="navy-line"></div>
+                    <h1>Organizing Committee</h1>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+
+                <div class="col-sm-4 wow fadeInLeft">
+                    <div class="team-member">
+                        <h4></h4>
+                        <p></p>
+                        <br />
+                    </div>
+                </div>
+
+                <div class="col-sm-4 wow fadeInLeft">
+                    <div class="team-member  wow">
+                        <h3><span class="navy">Dr.</span> S.K. Garg, Principal </h3>
+                        <p>PATRON
+                        </p>
+                        <br />
+                    </div>
+                </div>
+
+                <div class="col-sm-4 wow fadeInRight">
+                    <div class="team-member">
+                        <h4></h4>
+                        <p></p>
+                        <br />
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-sm-4 wow fadeInLeft">
+                    <div class="team-member  wow">
+                        <h3><span class="navy">Dr.</span> Anuja Soni </h3>
+                        <p>CONVENER
+                        </p>
+                        <br />
+                    </div>
+                </div>
+
+                <div class="col-sm-4 wow fadeInLeft">
+                    <div class="team-member  wow">
+                        <h3><span class="navy">Dr.</span> Sujata Khatri </h3>
+                        <p>CO - CONVENER
+                        </p>
+                        <br />
+                    </div>
+                </div>
+
+                <div class="col-sm-4 wow fadeInRight">
+                    <div class="team-member  wow">
+                        <h3><span class="navy">Dr.</span> Arpita Sharma </h3>
+                        <p>ORGANIZING SECRETARY
+                        </p>
+                        <br />
+                    </div>
+                </div>
+            </div>
+
+            <br>
+            <div class="row m-b-lg">
+                <div class="col-lg-12 text-center">
+                    <h2>Programme Committee</h2>
+                </div>
+            </div>
+            <br />
+
+
+            <div class="row">
+
+                <div class="col-sm-4 wow fadeInLeft">
+                    <div class="team-member  wow">
+                        <h3><span class="navy">Dr.</span> Rajni Bala </h3>
+                        <p>
+                        </p>
+                        <br />
+                    </div>
+                </div>
+
+                <div class="col-sm-4 wow fadeInLeft">
+                    <div class="team-member  wow">
+                        <h3><span class="navy">Dr.</span> Rampal Singh </h3>
+                        <p>
+                        </p>
+                        <br />
+                    </div>
+                </div>
+
+                <div class="col-sm-4 wow fadeInRight">
+                    <div class="team-member  wow">
+                        <h3><span class="navy">Ms.</span> Shweta Wadhera </h3>
+                        <p>
+                        </p>
+                        <br />
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+
+
+                <div class="col-sm-4 wow fadeInLeft">
+                    <div class="team-member  wow">
+                        <h3><span class="navy">Mr.</span> Anil Kumar </h3>
+                        <p>
+                        </p>
+                        <br />
+                    </div>
+                </div>
+
+
+
+                <div class="col-sm-4 wow fadeInLeft">
+                    <div class="team-member  wow">
+                        <h3><span class="navy">Mr.</span> Ankit Rajpal </h3>
+                        <p>
+                        </p>
+                        <br />
+                    </div>
+                </div>
+                <div class="col-sm-4 wow fadeInRight">
+                    <div class="team-member  wow">
+                        <h3><span class="navy">Ms.</span> Preeti </h3>
+                        <p>
+                        </p>
+                        <br />
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 wow fadeInLeft">
+                    <div class="team-member  wow">
+                        <h3><span class="navy">Mr.</span> Sanjeet Kumar </h3>
+                        <p>
+                        </p>
+                        <br />
+                    </div>
+                </div>
+                <div class="col-sm-4 wow fadeInLeft">
+                    <div class="team-member  wow">
+                        <h3><span class="navy">Mrs.</span> Trasha Gupta </h3>
+                        <p>
+                        </p>
+                        <br />
+                    </div>
+                </div>
+                <div class="col-sm-4 wow fadeInRight">
+                    <div class="team-member  wow">
+                        <h3><span class="navy">Ms.</span> Divya Kundra </h3>
+                        <p>
+                        </p>
+                        <br />
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
+                    <!--  <p>At last, blah blah blah.</p> -->
+                    <br /></div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="aboutus" class="navy-section testimonials" style="margin-top: 0">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center wow zoomIn">
+                    <!-- <i class="fa fa-comment big-icon"></i> -->
+                    <h1>
+                        About us
+                    </h1>
+                    <div class="testimonials-text">
+                        <i>Deen Dayal Upadhaya College (DDUC) has long been recognized as a premier instituion of higher
+                            learning. Esatblished in 1990 as one of the constituent colleges of Delhi University, it has
+                            come a long way in the last 25 years
+                            and has earned a place in Top 10 Colleges in Delhi for Science courses.
+                            Its courses/programs across diverse disciplines, such as Commerce, Management and English
+                            have grown in popularity and attract large number of students.
+                            <strong>DDUC is the first college in Delhi University to have undergone NAAC
+                                accrediation</strong>
+                        </i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="navy-line"></div>
+                    <h1>Statements of Vision and Mission</h1>
+                </div>
+            </div>
+            <div class="row features-block">
+                <div class="col-lg-4">
+                    <div class="bubble" style="color:black">
+                        To be an Academia of "First Choice" to transform lives that will change the world for the better
+                        at whatever level of human endeavor involved.
+                    </div>
+                    <div class="comments-avatar">
+                        <div class="media-body">
+                            <div class="commens-name">
+                                Vision
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="bubble" style="color:black">
+                        To create confident, dedicated, honest and upright individuals who become an asset to the
+                        society.
+                    </div>
+                    <div class="comments-avatar">
+                        <div class="media-body">
+                            <div class="commens-name">
+                                Mission
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="bubble" style="color:black">
+                        DDUC is Located in Karampura, Moti Nagar in West Delhi. Moti Nagar Station on the blue line is
+                        the closest stop and is at a walking distance from the college.
+                        Bus Users can travel via Bus-routes like 78, 408, 410, 894, 910, 990, 890, etc.
+                    </div>
+                    <div class="comments-avatar">
+                        <div class="media-body">
+                            <div class="commens-name">
+                                Location and Accessibility
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="comments gray-section">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1><br>About the Seminar<br></h1>
+                </div>
+            </div>
+            <div class="testimonials-text">
+                <i><br>
+                    The Seminar AIMS to Bring together leading experts, academicians and professionals to exchange and
+                    share their ideas,
+                    experience and knowledge of emerging issues on "Soft Computing".<br>
+                    Soft Computing is a consortium of methodologies that embraces approximate reasoning imprecision,
+                    uncertainty and partial truth in order to mimic the remarkable human capability of making decisions
+                    in real-life ambiguous environment.
+                    The main AIM of Soft Computing is to exploit the tolerance for imprecision, uncertainty, approximate
+                    reasoning and partial truth to achieve tactability, robustness, low solution cost and close
+                    resemblance to human like decision making.
+                    <br />
+                    Fuzzy Logic, Rough Sets, Artificial Neural Networks, Evolutionary Algorithms and Nature Inspired
+                    Computing are the principal components of Soft Computing paradigm.
+                    The importance of Soft Computing techniques is evident by its application in numerous research areas
+                    like
+                    pattern recognition, machine learning, image processing, data mining and many more.
+                </i>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1> <br />Objectives</h1>
+                </div>
+            </div>
+            <div class="row features-block ">
+
+                <div class="col-lg-4">
+                    <div class="bubble">
+                        To provide conceptual understanding of the key constituents of Soft Computing such as Neuro
+                        Fuzzy Inference System, Probabilistic Reasoning,
+                        Neural Computing, Genetic and Evolutionary Computing and Nature Inspired Computing.
+                    </div>
+                    <div class="comments-avatar">
+                        <div class="media-body">
+                            <div class="commens-name">
+                                LEARN
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="bubble">
+                        To Encourage the students to explore different fields of soft computing beyond the scope of
+                        Seminar.
+                    </div>
+                    <div class="comments-avatar">
+                        <div class="media-body">
+                            <div class="commens-name">
+                                DISCOVER
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="bubble">
+                        To Encourage the students to implement the techniques in the area of Soft Computing through
+                        practical sessions on Soft Computing Techniques.
+                    </div>
+                    <div class="comments-avatar">
+                        <div class="media-body">
+                            <div class="commens-name">
+                                APPLY
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+        <br /><br />
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h3>
+                    Download the Brochure below for more details of the Seminar <br /><br />
+                </h3>
+                <a href="dduseminardocs/brochure_national_seminar_SC.pdf" class="btn btn-primary" download><i
+                        class="glyphicon glyphicon-download-alt"> </i> &nbsp;&nbsp; Download Brochure</a>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section id="contactus" class="gray-section contact">
+        <div class="container">
+            <div class="row m-b-lg">
+                <div class="col-lg-12 text-center">
+                    <div class="navy-line"></div>
+                    <h1>Contact Us</h1>
+                </div>
+            </div>
+            <div class="row m-b-lg">
+                <div class="col-lg-3 col-lg-offset-3">
+                    <address>
+                        <strong><span class="navy">Deen Dayal Upadhyaya College</span></strong><br />
+                        Shivaji Marg, Karampura<br />
+                        New Delhi-110015, India<br />
+                        <strong><span class="navy">Phone:</span></strong> 011-25458173 / 011- 25173400
+                    </address>
+                </div>
+                <div class="col-lg-4">
+                    <p class="text-color">
+                        <strong><span class="navy">College website : </span></strong> <a
+                            href="http://dducollege.du.ac.in"><strong>http://dducollege.du.ac.in</strong> </a><br />
+                        <strong><span class="navy">Principal Email: </span></strong> <a
+                            href="mailto:principaldducollege@gmail.com"><strong>
+                                principaldducollege@gmail.com</strong></a><br />
+                        <strong><span class="navy">Query/Info Email: </span></strong> <a
+                            href="mailto:info@ddunationalseminarsc.in"><strong>
+                                info@ddunationalseminarsc.in</strong></a><br />
+                    </p>
+                </div>
+            </div>
+            <div class="row m-b-lg">
+                <div class="col-lg-12 text-center">
+                    <p class="text-color">
+                        <span class="navy"><strong> For Further Information, contact: </strong></span></p>
+                    <div class="col-lg-12 text-center">
+                        <div class="col-lg-12 ">
+                            <strong>Dr. Arpita Sharma</strong>
+                            &nbsp;&nbsp;&nbsp;&nbsp; <a
+                                href="mailto:arpt1_mishra1@yahoo.com"><strong>arpt1_mishra1@yahoo.com </strong></a>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>9910056962</strong>
+                        </div>
+                        <div class="col-lg-12 ">
+                            <strong>Dr. Anuja Soni &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </strong>
+                            <a href="mailto:30.anuja@gmail.com"><strong>30.anuja@gmail.com </strong></a>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>9971978715</strong>
+                        </div>
+                        <div class="col-lg-12 ">
+                            <strong>Dr. Sujata Khatri&nbsp;&nbsp; &nbsp;</strong>
+                            &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; <a href="mailto:khatri.sujata@gmail.com"><strong>
+                                    khatri.sujata@gmail.com </strong></a>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>9911138687</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <a href="mailto:info@ddunationalseminarsc.in" class="btn btn-primary">Any Query ? Mail us</a>
+                    <!--
+                         <p class="m-t-sm">
+                             Or follow us on social platform
+                         </p>
+                         <ul class="list-inline social-icon">
+                             <li><a href="#"><i class="fa fa-facebook"></i></a>
+                             </li>
+                             <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                             </li>
+                         </ul>
+                        -->
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
+                    <p><strong>&copy; 2016 Sanganika</strong><br /> <!-- bblah blah. -->
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mainly scripts -->
+    <script src="js/jquery-2.1.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
+    <script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+    <!-- Custom and plugin javascript -->
+    <script src="js/inspinia.js"></script>
+    <script src="js/plugins/pace/pace.min.js"></script>
+    <script src="js/plugins/wow/wow.min.js"></script>
+
+
+    <script>
+        $(document).ready(function () {
+
+            $('body').scrollspy({
+                target: '.navbar-fixed-top',
+                offset: 80
+            });
+
+            // Page scrolling feature
+            $('a.page-scroll').bind('click', function (event) {
+                var link = $(this);
+                $('html, body').stop().animate({
+                    scrollTop: $(link.attr('href')).offset().top - 50
+                }, 500);
+                event.preventDefault();
+                $("#navbar").collapse('hide');
+            });
+        });
+
+        var cbpAnimatedHeader = (function () {
+            var docElem = document.documentElement,
+                header = document.querySelector('.navbar-default'),
+                didScroll = false,
+                changeHeaderOn = 200;
+
+            function init() {
+                window.addEventListener('scroll', function (event) {
+                    if (!didScroll) {
+                        didScroll = true;
+                        setTimeout(scrollPage, 250);
+                    }
+                }, false);
+            }
+
+            function scrollPage() {
+                var sy = scrollY();
+                if (sy >= changeHeaderOn) {
+                    $(header).addClass('navbar-scroll')
+                } else {
+                    $(header).removeClass('navbar-scroll')
+                }
+                didScroll = false;
+            }
+
+            function scrollY() {
+                return window.pageYOffset || docElem.scrollTop;
+            }
+            init();
+
+        })();
+
+        // Activate WOW.js plugin for animation on scrol
+        new WOW().init();
+    </script>
+
+</body>
+
+</html>
